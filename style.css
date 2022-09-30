@@ -172,3 +172,33 @@ body{
   width: 100%;
   background-color: #131921;
 }
+
+.backtotop{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: white;
+ height: 50px;
+ background-color: #232f3e;
+}
+.InfoColumns{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  height: 300px;
+}
+.infocol table{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.infocol th{
+  font-size: 20px;
+}
+.infocol td{
+  font-size: 16px;
+}
+.infocol th, td{
+    padding: 10px;
+    display: block;
+}
